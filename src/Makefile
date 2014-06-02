@@ -31,5 +31,5 @@ gresources.c: resources.gresource.xml squirrer.glade
 %.o:  %.c
 	$(CC) $(CFLAGS) -c -o $@ $<
 clean :
-	rm $(program) $(objects)
+	rm -f $(program) $(objects)
 
